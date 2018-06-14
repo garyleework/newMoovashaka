@@ -1,8 +1,9 @@
+import React, { Component } from 'react'
+
 const fs = require('fs')
 const klaw = require('klaw')
 const path = require('path')
 const matter = require('gray-matter')
-import React, { Component } from 'react'
 
 
 function getPosts () {
@@ -46,7 +47,7 @@ function getPosts () {
 export default {
 
   getSiteData: () => ({
-    title: 'React Static with Netlify CMS',
+    title: 'MoovaShaka WebApp',
   }),
   getRoutes: async () => {
     const posts = await getPosts()

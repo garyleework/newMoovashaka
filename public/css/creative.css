@@ -1,3 +1,4 @@
+/* Main elements */
 html, body {
   height: 100%;
   width: 100%
@@ -38,7 +39,7 @@ p {
   margin-bottom: 20px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
-
+/* Primary Themes */
 .bg-primary {
   background-color: #303663
 }
@@ -63,7 +64,7 @@ aside {
 .no-padding {
   padding: 0
 }
-
+/* Navbar */
 .navbar-default {
   background-color: #7278a4;
   border-color: rgba(34, 34, 34, 0.05);
@@ -110,11 +111,12 @@ aside {
 .navbar-default .nav>li.active>a:hover, .navbar-default .nav>li.active>a:focus:hover {
   background-color: #7278a4
 }
-
-blog-post {
-  text-align: center;
+/* Blog  */
+.blog-post {
+  padding: 100px;
+  float: left;
 }
-
+/* Media Queries */
 @media(min-width:768px) {
   .navbar-default {
     background-color: #7278a4;
