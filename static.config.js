@@ -102,8 +102,8 @@ export default {
             <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
             {/* Custom Fonts */}
             <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-            <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
-            <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+            <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
             {/* Plugin CSS */}
             <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
             {/* Theme CSS */}
@@ -116,26 +116,26 @@ export default {
             <noscript>
   You need to enable JavaScript to run this app.
             </noscript>
-{/*Netlify ghost form */}
-  <form name="contactForm" netlify netlify-honeypot="bot-field" hidden>
-    <input name="inputName" type="text" />
-    <input name="inputEmail" type="email" />
-    <input name="inputCompany" type="text" />
-    <select name="select">
-      <option value="other">Something else</option>
-      <option value="Brochure">A brochure site</option>
-      <option value="e-commerce">An e-commerce site</option>
-      <option value="content managed">Content-Managed site (like Wordpress)</option>
-      <option value="modifying">Modifying an existing App/Site</option>
-      <option value="custom">Custom React Components</option>
-      <option value="traffic">Traffic generation</option>
-    </select>
-    <textarea name="message"></textarea>
-  </form>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="js/creative.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+            {/* Netlify ghost form */}
+            <form name="contactForm" netlify netlify-honeypot="bot-field" hidden>
+              <input name="inputName" type="text" />
+              <input name="inputEmail" type="email" />
+              <input name="inputCompany" type="text" />
+              <select name="select">
+                <option value="other">Something else</option>
+                <option value="Brochure">A brochure site</option>
+                <option value="e-commerce">An e-commerce site</option>
+                <option value="content managed">Content-Managed site (like Wordpress)</option>
+                <option value="modifying">Modifying an existing App/Site</option>
+                <option value="custom">Custom React Components</option>
+                <option value="traffic">Traffic generation</option>
+              </select>
+              <textarea name="message" />
+            </form>
+            <script src="vendor/jquery/jquery.min.js" />
+            <script src="js/creative.min.js" />
+            <script src="js/jquery.easing.min.js" />
+            <script src="vendor/bootstrap/js/bootstrap.min.js" />
           </Body>
         </Html>
       )
