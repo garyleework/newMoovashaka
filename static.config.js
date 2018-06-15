@@ -46,6 +46,8 @@ function getPosts () {
 
 export default {
 
+  siteRoot: 'https://optimistic-snyder-4c0bcc.netlify.com',
+
   getSiteData: () => ({
     title: 'MoovaShaka WebApp',
   }),
