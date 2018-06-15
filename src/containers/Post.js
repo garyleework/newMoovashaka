@@ -16,7 +16,7 @@ export default withRouteData(({ post }) => (
       <Moment format="MMMM Do, YYYY">{post.data.date}</Moment>
       <br />
       <br />
-      <img className="image" src={post.data.thumbnail} alt="" />
+      <img className="image img-fluid" src={post.data.thumbnail} alt="" />
       <br />
       <br />
       <Markdown source={post.content} escapeHtml={false} />

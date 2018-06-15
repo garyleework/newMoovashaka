@@ -9,11 +9,11 @@ import { hot } from 'react-hot-loader'
 const App = () => (
   <Router>
     <div>
-      <nav>
+      {/* <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
-      </nav>
+      </nav> */}
       <Routes />
     </div>
   </Router>
