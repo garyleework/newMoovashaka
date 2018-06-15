@@ -9,21 +9,26 @@ export default withRouteData(({ posts }) => (
   <div>
     <div>
       <BlogNav />
-      <div className="blog-post">
+    </div>
+    <div className="blog-post container-fluid float left clearfix">
+      <div className="row">
         <h1>Just some thoughts....</h1>
         <br />
         <h3>All Posts:</h3>
+        <br />
         <ul>
           <h4>
             {posts.map(post => (
               <li key={post.data.slug}>
-                <Link to={`/blog/post/${post.data.slug}`}>{post.data.title}</Link>
+                <Link to={`/blog/post/${post.data.slug}`}>{post.data.title} {<br />}{<br />}</Link>
               </li>
             ))}
           </h4>
         </ul>
       </div>
     </div>
-    <Footer />
+    <div className="clearfix">
+      <Footer />
+    </div>
   </div>
 ))

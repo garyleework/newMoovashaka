@@ -113,8 +113,7 @@ aside {
 }
 /* Blog  */
 .blog-post {
-  padding: 100px;
-  float: left;
+  padding: 50px;
 }
 /* Media Queries */
 @media(min-width:768px) {
