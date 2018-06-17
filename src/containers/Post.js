@@ -10,7 +10,7 @@ export default withRouteData(({ post }) => (
   <div>
     <BlogNav />
     <div className="blog-post">
-      <Link to="/blog/">{'<'} Back</Link>
+      <Link to="/blog">{'<'} Back</Link>
       <br />
       <h3>{post.data.title}</h3>
       <Moment format="MMMM Do, YYYY">{post.data.date}</Moment>

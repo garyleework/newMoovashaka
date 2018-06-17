@@ -112,6 +112,10 @@ export default {
             <link href="css/creative.min.css" rel="stylesheet" />
             {/* Additional CSS goes here */}
             <link href="css/form.min.css" rel="stylesheet" />
+            <script src="vendor/jquery/jquery.min.js" />
+            <script src="js/creative.min.js" />
+            <script src="js/jquery.easing.min.js" />
+            <script src="vendor/bootstrap/js/bootstrap.min.js" />
           </Head>
           <Body>
             {children}
@@ -134,10 +138,6 @@ export default {
               </select>
               <textarea name="message" />
             </form>
-            <script src="vendor/jquery/jquery.min.js" />
-            <script src="js/creative.min.js" />
-            <script src="js/jquery.easing.min.js" />
-            <script src="vendor/bootstrap/js/bootstrap.min.js" />
           </Body>
         </Html>
       )

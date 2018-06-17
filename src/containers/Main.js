@@ -1,5 +1,5 @@
-import React from 'react';
-import { ContactForm } from  '../components/contactForm.js';
+import React from 'react'
+import { ContactForm } from '../components/contactForm.js';
 
 export default class Main extends React.Component {
   state = {
@@ -10,17 +10,17 @@ export default class Main extends React.Component {
       ...this.state.fields,
       ...updatedValue }});
   }
-    render () {
-      return (
+  render () {
+    return (
 <div>
   <header id="page-top">
     <div className="header-content headerbanner">
-        <div className="header-content-inner">
-          <h1 id="homeHeading"> for Great mobile-first web app development</h1>
-          <hr />
-          <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
-          <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
-        </div>
+      <div className="header-content-inner">
+        <h1 id="homeHeading"> for Great mobile-first web app development</h1>
+        <hr />
+        <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
+        <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
+      </div>
     </div>
   </header>
   <section className="bg-primary" id="about">

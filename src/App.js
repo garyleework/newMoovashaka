@@ -1,6 +1,6 @@
 import React from 'react'
 import Routes from 'react-static-routes'
-import { Router, Link } from 'react-static'
+import { Router } from 'react-static'
 import { hot } from 'react-hot-loader'
 
 //
