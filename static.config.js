@@ -134,10 +134,10 @@ export default {
               </select>
               <textarea name="message" />
             </form>
-            <script src="vendor/jquery/jquery.min.js" />
-            <script src="js/creative.min.js" />
-            <script src="js/jquery.easing.min.js" />
-            <script src="vendor/bootstrap/js/bootstrap.min.js" />
+            <script src="/public/vendor/jquery/jquery.min.js" />
+            <script src="/public/js/creative.min.js" />
+            <script src="/public/js/jquery.easing.min.js" />
+            <script src="/public/vendor/bootstrap/js/bootstrap.min.js" />
           </Body>
         </Html>
       )
