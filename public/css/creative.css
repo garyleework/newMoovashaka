@@ -115,24 +115,11 @@ aside {
 .blog-post {
   padding: 50px;
 }
-<<<<<<< HEAD
 .logo {
   height: 65vh;
-  padding: 200px 30px;
+  padding: 200px 20px;
   float: left;
 }
-=======
-/* Blog Image Container */
-.thumbcontainer {
-  width: 200px;
-  height: 120px;
-  }
-.thumbcontainer img {
-  width: 100%;
-  height: auto;
-  }
-
->>>>>>> d1a2a5bab88055ba42ee64bf4082841f43d5bb52
 /* Media Queries */
 @media(min-width:768px) {
   .navbar-default {
