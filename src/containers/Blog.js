@@ -16,17 +16,22 @@ export default withRouteData(({ posts }) => (
         <br />
         <h3>All Posts:</h3>
         <br />
+        <div className="col-lg-4 col-sm-6">
         <ul>
-          <h4>
+          <h2>
             {posts.map(post => (
               <li key={post.data.slug}>
                 <Link to={`/blog/post/${post.data.slug}`}>{post.data.title} {<br />}{<br />}</Link>
+                <div className="thumbcontainer">
+                  <img className="thumbcontainer image img-fluid" src={post.data.thumbnail} alt="" />
+                </div>
               </li>
             ))}
-          </h4>
+          </h2>
         </ul>
       </div>
     </div>
+  </div>
     <div className="clearfix">
       <Footer />
     </div>
