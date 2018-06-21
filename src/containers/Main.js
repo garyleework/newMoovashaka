@@ -16,6 +16,11 @@ export default class Main extends React.Component {
   <header id="page-top">
     <div className="header-content headerbanner">
       <div className="header-content-inner">
+        <div className="container">
+          <div className="row">
+            <img className="img-responsive logo" src="/img/ms_logo1.png" alt="landing pages responsive apps"/>
+          </div>
+        </div>
         <h1 id="homeHeading"> for Great mobile-first web app development</h1>
         <hr />
         <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
@@ -27,7 +32,7 @@ export default class Main extends React.Component {
         <div className="container">
             <div className="row">
                 <div className="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 className="section-heading">We have what you need!</h2>
+                    <h2 className="section-heading">Responsive mobile-friendly Landing Pages, Blog's, CMS, E-Commerce etc</h2>
                     <hr className="light" />
                     <p className="text-faded">At MoovaShaka we have everything needed to get your new web project up and running in no time. We are a multi-disciplinary team
                     with all the skills &amp; know-how to really get your new project off to a flying start. Simply fill in the contact form below, send mail or phone with

@@ -115,6 +115,11 @@ aside {
 .blog-post {
   padding: 50px;
 }
+.logo {
+  height: 65vh;
+  padding: 200px 30px;
+  float: left;
+}
 /* Media Queries */
 @media(min-width:768px) {
   .navbar-default {
