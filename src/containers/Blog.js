@@ -10,23 +10,29 @@ export default withRouteData(({ posts }) => (
     <div>
       <BlogNav />
     </div>
-    <div className="blog-post container-fluid float left clearfix">
-      <div className="row">
+    <section className="blog-post container h-100 align-items-center">
+      <div className="row h-100 justify-content-center align-items-center">
         <h1>Just some thoughts....</h1>
         <br />
         <h3>All Posts:</h3>
         <br />
-        <ul>
-          <h4>
-            {posts.map(post => (
-              <li key={post.data.slug}>
-                <Link to={`/blog/post/${post.data.slug}`}>{post.data.title} {<br />}{<br />}</Link>
-              </li>
-            ))}
-          </h4>
-        </ul>
+        <div>
+          <ul>
+            <h3>
+              {posts.map(post => (
+                <li key={post.data.slug}>
+                  <Link to={`/blog/post/${post.data.slug}`}>{post.data.title} {<br />}{<br />}</Link>
+                  <div className="thumbcontainer">
+                    <img className="img-fluid" src={post.data.thumbnail} alt="" />
+                  </div>
+                  <br /><br />
+                </li>
+              ))}
+            </h3>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
     <div className="clearfix">
       <Footer />
     </div>
