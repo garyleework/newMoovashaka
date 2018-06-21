@@ -119,11 +119,11 @@ aside {
 .thumbcontainer {
   width: 200px;
   height: 120px;
-}
+  }
 .thumbcontainer img {
   width: 100%;
   height: auto;
-}
+  }
 
 /* Media Queries */
 @media(min-width:768px) {
