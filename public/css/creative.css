@@ -115,11 +115,41 @@ aside {
 .blog-post {
   padding: 50px;
 }
-.logo {
-  height: 65vh;
-  padding: 200px 20px;
-  float: left;
+.blog-post ul {
+  list-style: none;
 }
+.logo {
+  margin: 10em 0 -95em -10em;
+  height: 70vh;
+  padding: 100px 20px;
+  /* float: left; */
+}
+.thumbcontainer {
+  width:200px;
+  height: 120px;
+}
+.thumbcontainer img {
+  width: 100%;
+  height: auto;
+  padding:0 35px;
+  clear:both;
+}
+.aboutcontainer {
+  width:400px;
+  height:220px;
+  padding:30px 30px;
+
+}
+.aboutcontainer img {
+  width: 100%;
+  height: auto;
+}
+.aboutsection {
+  margin-left: 14em;
+  margin-bottom: 5em;
+}
+
+
 /* Media Queries */
 @media(min-width:768px) {
   .navbar-default {
