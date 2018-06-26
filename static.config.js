@@ -109,7 +109,7 @@ export default {
             {/* Plugin CSS */}
             <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
             {/* Theme CSS */}
-            <link href="/css/creative.min.css" rel="stylesheet" />
+            <link href="/css/creative.css" rel="stylesheet" />
             {/* Additional CSS goes here */}
             <link href="/css/form.min.css" rel="stylesheet" />
           </Head>

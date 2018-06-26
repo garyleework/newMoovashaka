@@ -16,17 +16,21 @@ export default class Main extends React.Component {
   <header id="page-top">
     <div className="header-content headerbanner">
       <div className="header-content-inner">
-        <div className="container">
-          <div className="row">
-            <img className="logo img-responsive" src="/img/ms_logo1.png" alt="landing pages responsive apps" />
-          </div>
+        <div className="d-flex">
+          <h1 id="homeHeading"> for Great mobile-first web app development</h1>
+          <hr />
+          <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
+          <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
-        <h1 id="homeHeading"> for Great mobile-first web app development</h1>
-        <hr />
-        <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
-        <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
       </div>
     </div>
+    <div className="container">
+      {/* <div className="row"> */}
+      <div className="col-4 logo align-top">
+        <img className="mx-auto d-block" src="/img/ms_logo6.svg" alt="landing pages responsive apps" />
+      </div>
+    </div>
+    {/* </div> */}
   </header>
   <section className="bg-primary" id="about">
     <div className="d-flex flex-nowrap text-center h-100">
@@ -38,7 +42,9 @@ export default class Main extends React.Component {
       </div>
       <div className="row aboutsection">
         <div className="col-sm-8 aboutcontainer">
-          <img className="img-responsive" src="/img/mock.svg" alt="landing pages responsive apps" />
+          <img className="img-responsive" src="/img/mockwhite.svg" alt="landing pages responsive apps" />
+          <p className="hidden">If you have a design, an idea, mock-up, sketch, PDF or whatever....
+          </p>
         </div>
         <div className="col-sm-8 aboutcontainer">
           <img className="img-responsive" src="/img/text_editor.png" alt="landing pages responsive apps" />
@@ -48,12 +54,14 @@ export default class Main extends React.Component {
         </div>
       </div>
       <hr className="light" />
-      <div className="row">
-        <p className="text-faded">At MoovaShaka we have everything needed to get your new web project up and running in no time. We are a multi-disciplinary team
-        with all the skills &amp; know-how to really get your new project off to a flying start. Simply fill in the contact form below, send mail or phone with
-        an outline of your requirements and we can arrange a convenient time to iron out the detail. </p>
-        <p className="text-faded">Need modifications to your existing development? Get in touch &amp; let's see how we can be of service.</p>
-        <a href="#services" className="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+      <div className="container">
+        <div className="row">
+          <p className="text-faded">At MoovaShaka we have everything needed to get your new web project up and running in no time. We are a multi-disciplinary team
+          with all the skills &amp; know-how to really get your new project off to a flying start. Simply fill in the contact form below, send mail or phone with
+          an outline of your requirements and we can arrange a convenient time to iron out the detail. </p>
+          <p className="text-faded">Need modifications to your existing development? Get in touch &amp; let's see how we can be of service.</p>
+          <a href="#services" className="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+        </div>
       </div>
     </div>
   </section>
