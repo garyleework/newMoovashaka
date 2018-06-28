@@ -43,8 +43,7 @@ export default class Main extends React.Component {
       <div className="row aboutsection">
         <div className="col-sm-8 aboutcontainer">
           <img className="img-responsive" src="/img/mockwhite.svg" alt="landing pages responsive apps" />
-          <p className="hidden">If you have a design, an idea, mock-up, sketch, PDF or whatever....
-          </p>
+          <span className="hidden">If you have a design, an idea, mock-up, sketch, PDF or whatever....></span>
         </div>
         <div className="col-sm-8 aboutcontainer">
           <img className="img-responsive" src="/img/text_editor.png" alt="landing pages responsive apps" />

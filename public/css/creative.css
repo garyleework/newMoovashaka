@@ -168,7 +168,7 @@ aside {
   margin-bottom: 5em;
 }
 .hidden {
-  opacity:0;
+  opacity:1;
 }
 .hidden:hover {
   opacity:1;
