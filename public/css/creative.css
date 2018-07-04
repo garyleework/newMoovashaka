@@ -156,22 +156,23 @@ aside {
 .aboutcontainer img:hover {
   width: 100%;
   height: auto;
-  -webkit-transform: rotate(360deg);
-         transform: rotate(360deg);
   opacity: 0;
-  transition: opacity: .5s ease-in-out;
-  -moz-transition: opacity .5s ease-in-out;
- -webkit-transition: opacity .5s ease-in-out
+  transition: opacity: .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+ -webkit-transition: opacity .75s ease-in-out;
 }
 .aboutsection {
   margin-left: 14em;
   margin-bottom: 5em;
 }
 .hidden {
-  opacity:1;
+  opacity:0;
 }
-.hidden:hover {
+.hidden span:hover {
   opacity:1;
+  transition: opacity: .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+ -webkit-transition: opacity .75s ease-in-out;
 }
 
 
