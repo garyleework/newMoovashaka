@@ -1,5 +1,6 @@
 import React from 'react'
 import { ContactForm } from '../components/contactForm.js'
+import { Fade } from '../components/fade.js'
 
 export default class Main extends React.Component {
   state = {
@@ -49,8 +50,8 @@ export default class Main extends React.Component {
           <img className="img-responsive" src="/img/text_editor.png" alt="landing pages responsive apps" />
         </div>
         <div className="col-sm-8 aboutcontainer">
-          <img className="img-responsive" src="/img/text_editor.png" alt="landing pages responsive apps" />
-        </div>
+          <Fade />
+          </div>
       </div>
       <hr className="light" />
       <div className="container">

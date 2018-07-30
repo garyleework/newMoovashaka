@@ -161,20 +161,29 @@ aside {
   -moz-transition: opacity .75s ease-in-out;
  -webkit-transition: opacity .75s ease-in-out;
 }
+.aboutcontainer span {
+  font-family:'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border-radius: 5px;
+  display: inline;
+  text-align: center;
+  background: ;
+  left: ;
+  top: ;
+  width: 300px;
+  padding: 2px;
+  color: white;
+}
+.aboutcontainer span:hover {
+  opacity: 1;
+  transition: opacity: .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+ -webkit-transition: opacity .75s ease-in-out
+}
+
 .aboutsection {
   margin-left: 14em;
   margin-bottom: 5em;
 }
-.hidden {
-  opacity:0;
-}
-.hidden span:hover {
-  opacity:1;
-  transition: opacity: .75s ease-in-out;
-  -moz-transition: opacity .75s ease-in-out;
- -webkit-transition: opacity .75s ease-in-out;
-}
-
 
 /* Media Queries */
 @media(min-width:768px) {
