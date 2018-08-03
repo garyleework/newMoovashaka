@@ -41,16 +41,16 @@ export default class Main extends React.Component {
     <div className="d-flex flex-nowrap text-center h-100">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-lg-offset-2 text-center">
-          <h2 className="section-heading">Responsive mobile-friendly Landing Pages, Blogs, CMS, E-Commerce, SEO & more!</h2>
+          <h2 className="section-heading">Responsive mobile-friendly Landing Pages, Web-apps, Blogs, CMS, E-Commerce, SEO & more!</h2>
           <hr className="light" />
         </div>
       </div>
       <div className="row aboutsection">
         <div className="img-responsive col-sm-8 aboutcontainer">
         <div className="card" style={cardStyle}>
-        <img className="card-img-top" src="/img/mockwhite1.svg" alt="Card image cap" />
+        <img className="card-img-top" src="/img/mockwhite2.svg" alt="Card image cap" />
         <div className="card-body">
-        <p className="card-text">If you have a design, an idea, mock-up, sketch, PDF or whatever.....</p>
+        <p className="card-text">Send your design, idea, mock-up, sketch, PDF, napkin, whatever.....</p>
         </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default class Main extends React.Component {
         <div className="card" style={cardStyle}>
         <img className="card-img-top" src="/img/text_editor.png" alt="Card image cap" />
         <div className="card-body">
-        <p className="card-text">If you have a design, an idea, mock-up, sketch, PDF or whatever.....</p>
+        <p className="card-text">We'll turn it into code.....</p>
         </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default class Main extends React.Component {
         <div className="card" style={cardStyle}>
         <img className="card-img-top" src="/img/blog.png" alt="Card image cap" />
         <div className="card-body">
-        <p className="card-text">If you have a design, an idea, mock-up, sketch, PDF or whatever.....</p>
+        <p className="card-text">and present back your finished design, ready to host wherever you wish, or talk to us about hosting.</p>
         </div>
         </div>
       </div>
