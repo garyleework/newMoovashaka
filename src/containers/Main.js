@@ -1,9 +1,10 @@
 import React from 'react'
 import { ContactForm } from '../components/contactForm.js'
-import { Fade } from '../components/fade.js'
+// import { Fade } from '../components/fade.js'
+
 
 export default class Main extends React.Component {
-  state = {
+    state = {
     fields: {}
   };
   onChange = updatedValue => {
@@ -12,6 +13,9 @@ export default class Main extends React.Component {
       ...updatedValue }});
   }
   render () {
+    const cardStyle = {
+      img:{width: '1rem'},
+    }
     return (
 <div>
   <header id="page-top">
@@ -42,16 +46,30 @@ export default class Main extends React.Component {
         </div>
       </div>
       <div className="row aboutsection">
-        <div className="col-sm-8 aboutcontainer">
-          <img className="img-responsive" src="/img/mockwhite.svg" alt="landing pages responsive apps" />
-          <span className="hidden">If you have a design, an idea, mock-up, sketch, PDF or whatever....></span>
+        <div className="img-responsive col-sm-8 aboutcontainer">
+        <div className="card" style={cardStyle}>
+        <img className="card-img-top" src="/img/mockwhite1.svg" alt="Card image cap" />
+        <div className="card-body">
+        <p className="card-text">If you have a design, an idea, mock-up, sketch, PDF or whatever.....</p>
         </div>
-        <div className="col-sm-8 aboutcontainer">
-          <img className="img-responsive" src="/img/text_editor.png" alt="landing pages responsive apps" />
         </div>
-        <div className="col-sm-8 aboutcontainer">
-          <Fade />
-          </div>
+      </div>
+      <div className="img-responsive col-sm-8 aboutcontainer">
+        <div className="card" style={cardStyle}>
+        <img className="card-img-top" src="/img/text_editor.png" alt="Card image cap" />
+        <div className="card-body">
+        <p className="card-text">If you have a design, an idea, mock-up, sketch, PDF or whatever.....</p>
+        </div>
+        </div>
+      </div>
+      <div className="img-responsive col-sm-8 aboutcontainer">
+        <div className="card" style={cardStyle}>
+        <img className="card-img-top" src="/img/blog.png" alt="Card image cap" />
+        <div className="card-body">
+        <p className="card-text">If you have a design, an idea, mock-up, sketch, PDF or whatever.....</p>
+        </div>
+        </div>
+      </div>
       </div>
       <hr className="light" />
       <div className="container">
@@ -181,7 +199,7 @@ export default class Main extends React.Component {
       <div className="row">
         <div className="col-lg-8 col-lg-offset-2 text-center">
           <h2 className="section-heading">Let's Get In Touch</h2>
-          <hr className="primary" />
+          <hr classNameName="primary" />
             <p>Ready to start your next project with us? That's great! Give us a call or drop us mail and we will get back to you as soon as possible.</p>
         </div>
         <div className="col-lg-4 col-lg-offset-2 text-center">

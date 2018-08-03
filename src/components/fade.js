@@ -1,9 +1,12 @@
 import React from 'react'
-import ReactCSSTransitionReplace from 'react-css-transition-replace';
+import ReactCSSTransitionReplace from 'react-css-transition-replace'
+import Blogimg from './img/blog.png'
 
-let descriptor = "We will produce your new application to \
+let desc = "We will produce your new application to \
 your specification whatever your requirements, using up to the minute \
 techniques and procedures";
+
+let image={Blogimg}
 
 export class Fade extends React.Component {
   constructor(props) {
@@ -27,8 +30,8 @@ export class Fade extends React.Component {
       <div key="hover" onMouseEnter={this.onToggleHover}
         onMouseLeave={this.onToggleHover}>
         {this.state.isHovered &&
-          <span>{descriptor}</span>}
-        <img src="http://via.placeholder.com/350x150"/>
+          <span>{desc}</span>}
+        <img src={image} />
       </div>
 
 
