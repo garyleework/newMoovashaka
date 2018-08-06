@@ -173,7 +173,7 @@ aside {
   padding: 2px;
   color: white;
 }
-.aboutcontainer span:hover {
+.aboutcontainer span {
   opacity: 1;
   transition: opacity: .75s ease-in-out;
   -moz-transition: opacity .75s ease-in-out;
