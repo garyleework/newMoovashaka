@@ -13,9 +13,6 @@ export default class Main extends React.Component {
       ...updatedValue }});
   }
   render () {
-    const cardStyle = {
-      img:{width: '1rem'},
-    }
     return (
 <div>
   <header id="page-top">
@@ -38,38 +35,40 @@ export default class Main extends React.Component {
     {/* </div> */}
   </header>
   <section className="bg-primary" id="about">
-    <div className="d-flex flex-nowrap text-center h-100">
+    <div className="d-flex text-center h-100">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-lg-offset-2 text-center">
           <h2 className="section-heading">Responsive mobile-friendly Landing Pages, Web-apps, Blogs, CMS, E-Commerce, SEO & more!</h2>
           <hr className="light" />
         </div>
       </div>
-      <div className="row aboutsection">
-        <div className="img-responsive col-sm-8 aboutcontainer">
-        <div className="card" style={cardStyle}>
+      <div className="row">
+        <div className="container">
+        <div className="img-responsive col-sm-4 aboutcontainer">
+        <div className="card">
         <img className="card-img-top" src="/img/mockwhite2.svg" alt="Card image cap" />
         <div className="card-body">
         <span className="card-text">Send your design, idea, mock-up, sketch, PDF, napkin, whatever.....</span>
         </div>
         </div>
       </div>
-      <div className="img-responsive col-sm-8 aboutcontainer">
-        <div className="card" style={cardStyle}>
+      <div className="img-responsive col-sm-4 aboutcontainer">
+        <div className="card">
         <img className="card-img-top" src="/img/text_editor.png" alt="Card image cap" />
         <div className="card-body">
         <span className="card-text">We'll turn it into code.....</span>
         </div>
         </div>
       </div>
-      <div className="img-responsive col-sm-8 aboutcontainer">
-        <div className="card" style={cardStyle}>
+      <div className="img-responsive col-sm-4 aboutcontainer">
+        <div className="card">
         <img className="card-img-top" src="/img/blog.png" alt="Card image cap" />
         <div className="card-body">
         <span className="card-text">and present back your finished design, ready to host wherever you wish, or talk to us about hosting.</span>
         </div>
         </div>
       </div>
+    </div>
       </div>
       <hr className="light" />
       <div className="container">
