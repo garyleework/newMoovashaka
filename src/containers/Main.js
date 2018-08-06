@@ -50,7 +50,7 @@ export default class Main extends React.Component {
         <div className="card" style={cardStyle}>
         <img className="card-img-top" src="/img/mockwhite2.svg" alt="Card image cap" />
         <div className="card-body">
-        <p className="card-text">Send your design, idea, mock-up, sketch, PDF, napkin, whatever.....</p>
+        <span className="card-text">Send your design, idea, mock-up, sketch, PDF, napkin, whatever.....</span>
         </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default class Main extends React.Component {
         <div className="card" style={cardStyle}>
         <img className="card-img-top" src="/img/text_editor.png" alt="Card image cap" />
         <div className="card-body">
-        <p className="card-text">We'll turn it into code.....</p>
+        <span className="card-text">We'll turn it into code.....</span>
         </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default class Main extends React.Component {
         <div className="card" style={cardStyle}>
         <img className="card-img-top" src="/img/blog.png" alt="Card image cap" />
         <div className="card-body">
-        <p className="card-text">and present back your finished design, ready to host wherever you wish, or talk to us about hosting.</p>
+        <span className="card-text">and present back your finished design, ready to host wherever you wish, or talk to us about hosting.</span>
         </div>
         </div>
       </div>
