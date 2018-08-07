@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Web or App Development or Web/App Design?
+title: Web Development or Web Design?
 date: '2018-08-07T09:37:22+01:00'
 thumbnail: /uploads/image3.jpg
 ---
