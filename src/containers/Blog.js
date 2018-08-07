@@ -13,7 +13,7 @@ export default withRouteData(({ posts }) => (
     <section className="blog-post container h-100 align-items-center">
       <div className="row h-100 justify-content-center align-items-center">
         <div className="col-sm-4">
-          <h3>All Posts:</h3>
+          <h3>Posts:</h3>
           <div>
             <ul>
               <h3>
@@ -31,28 +31,29 @@ export default withRouteData(({ posts }) => (
         </div> {/* End Col */}
         <div className="col-sm-8">
           <h1>This is our Blog</h1>
-          <p>
-            This is a space where we like to keep customers old & new informed of trends within this ever
+          <hr />
+          <p className="pt-md-4 pt-lg-4">
+            This is a place for latest news and trends, where we like to keep customers old & new informed of trends within the ever
             evolving industry of the internet.
-            <br />
-            <br />
+          </p>
+          <p>
             Here you will find articles &amp; discussions surrounding the Web Development universe - we'll touch on security
-            too, which needs an ever vigilant eye, of course!
-            <br />
-            <br />
+            too, which needs an ever vigilant eye, of course.
+          </p>
+          <p>
             And the uniquely
             interlinked but technically slightly removed world of Search Engine Optimisation. We hope
             you will find these articles useful, informative and thought provoking.
-            <br />
-            <br />
+          </p>
+          <p>
             This blog is powered by the wonderfully lightweight Netlify CMS, which means easy article publishing and
-            image uploads, even for those less technically inclined!
-            <br />
-            <br />
-            We chose Netlify's CMS because it has some real advantages in terms of speed, thanks in many ways to the fact that it doesn't
-            use a traditional database to store the content which the blog serves i.e. the posts.
-
-
+            image uploads, even for those less technically inclined.
+          </p>
+          <p>
+            Choosing Netlify's CMS because has some real advantages in terms of speed, thanks in many ways to the fact that it doesn't
+            use a traditional database to store the content which the blog serves, in other words the Blog's 'posts'.
+            We'd be only too glad to help you migrate from bloated resource heavy traditional Blogging platforms (such as Wordpress), to a newer
+            more dynamic platform like Netlify. Your SEO will thank you for it!
           </p>
         </div>
       </div> {/* End Row */}
