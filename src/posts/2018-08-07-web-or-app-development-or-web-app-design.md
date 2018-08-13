@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Web Development or Web Design?
+title: Web Design or Development?
 date: '2018-08-07T09:37:22+01:00'
 thumbnail: /uploads/image3.jpg
 ---
