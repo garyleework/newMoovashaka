@@ -19,10 +19,12 @@ export default withRouteData(({ posts }) => (
               <h3>
                 {posts.map(post => (
                   <div className="thumbcontainer">
-                     <li key={post.data.slug}>
-                      <Link to={`/blog/post/${post.data.slug}`}><h3>{post.data.title}</h3></Link> {/* link to Post title */}
-                      <Link to={`/blog/post/${post.data.slug}`}><img className="img-fluid" src={post.data.thumbnail} alt="" /></Link> {/* link to Post thumbnail */}
-                    </li>
+                    <ul>
+                      <li key={post.data.slug}>
+                        <Link to={`/blog/post/${post.data.slug}`}><h3>{post.data.title}</h3></Link> {/* link to Post title */}
+                        <Link to={`/blog/post/${post.data.slug}`}><img className="img-fluid" src={post.data.thumbnail} alt="" /></Link> {/* link to Post thumbnail */}
+                      </li>
+                    </ul>
                   </div>
               ))}
               </h3>
@@ -37,8 +39,7 @@ export default withRouteData(({ posts }) => (
             evolving industry of the internet.
           </p>
           <p>
-            Here you will find articles &amp; discussions surrounding the Web Development universe - we'll touch on security
-            too, which needs an ever vigilant eye, of course.
+            Here you will find articles &amp; discussions surrounding the Web Development universe - we'll touch on security too, which needs an ever vigilant eye, of course.
           </p>
           <p>
             And the uniquely
