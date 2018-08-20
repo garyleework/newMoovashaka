@@ -134,6 +134,21 @@ export default {
               </select>
               <textarea name="message" />
             </form>
+            <form name="contactForm" data-netlify="true" hidden>
+              <input name="inputName" type="text" />
+              <input name="inputEmail" type="email" />
+              <input name="inputCompany" type="text" />
+              <select name="select">
+                <option value="other">Something else</option>
+                <option value="Brochure">A brochure site</option>
+                <option value="e-commerce">An e-commerce site</option>
+                <option value="content managed">Content-Managed site (like Wordpress)</option>
+                <option value="modifying">Modifying an existing App/Site</option>
+                <option value="custom">Custom React Components</option>
+                <option value="traffic">Traffic generation</option>
+              </select>
+              <textarea name="message" />
+            </form>
             <script src="/vendor/jquery/jquery.min.js" />
             <script src="/js/creative.min.js" />
             <script src="/js/jquery.easing.min.js" />

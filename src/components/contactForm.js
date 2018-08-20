@@ -97,7 +97,7 @@ export class ContactForm extends React.Component {
 
     return (
       <div className="text-center">
-        <form name="contactForm" onSubmit={ this.handleSubmit } netlify>
+        <form name="contactForm" onSubmit={this.handleSubmit} netlify>
           <div>
             <input type="hidden" name="form-name" value="contactForm" />
             <label>Name:  </label>
