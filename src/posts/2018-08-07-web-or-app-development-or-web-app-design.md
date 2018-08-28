@@ -2,7 +2,7 @@
 layout: blog
 title: Web Design or Development?
 date: '2018-08-07T09:37:22+01:00'
-thumbnail: /uploads/image3.jpg
+thumbnail: /uploads/image3639.jpg
 ---
 The terminology is confusing, but then technology always has been - it's an ever moving feast of new ideas, new processes, new thoughts and innovations. But the principles still remain - basically, essentially - unaltered.
 
