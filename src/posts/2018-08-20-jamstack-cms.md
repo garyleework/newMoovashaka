@@ -2,7 +2,7 @@
 layout: blog
 title: 'JAMstack CMS '
 date: '2018-08-20T14:20:18+01:00'
-thumbnail: /uploads/screenshot_2018-08-20-content-manager.png
+thumbnail: /uploads/screenshot639.png
 ---
 A new wave of content managed sites are on their way, no longer needing to rely on a remote database to store content - and this means fast, rapid fast content loading unlike the traditional bloated content managers, where clicking to see a new post means a wait. Sometimes - a - very - long - wait, OK that's a huge exageration, but in a world where we are used to things happening extremely quickly a few milliseconds can seem an eternity, and let's face it customers won't wait!
 
